@@ -1,6 +1,6 @@
 {
   "name": "@deveodk/vue-tinymce",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Vue wrapper component for the tinyMCE.js",
   "main": "src/index.js",
   "scripts": {
@@ -22,7 +22,4 @@
     "url": "https://github.com/Deveodk/vue-tinymce/issues"
   },
   "homepage": "https://github.com/Deveodk/vue-tinymce#readme",
-  "dependencies": {
-    "tinymce": "^4.5.3"
-  }
 }
