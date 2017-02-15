@@ -1,0 +1,25 @@
+{
+  "name": "@deveodk/vue-tinymce",
+  "version": "0.0.1",
+  "description": "Vue wrapper component for the tinyMCE.js",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deveodk/vue-tinymce.git"
+  },
+  "keywords": [
+    "vuejs",
+    "vue",
+    "tinymce",
+    "vue-tinymce"
+  ],
+  "author": "=Deveodk <konto@deveo.io> (https://deveo.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Deveodk/vue-tinymce/issues"
+  },
+  "homepage": "https://github.com/Deveodk/vue-tinymce#readme"
+}
