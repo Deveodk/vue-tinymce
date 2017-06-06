@@ -1,14 +1,17 @@
-import Tinymce from './vue-tinymce.vue'
+import TinyMCE from './TinyMCE.vue'
 
-
-const VueTinyMCE = {
-
-    install: (Vue, options) => {
-        Vue.component('vue-tinymce', Tinymce)
-    }
-
-
+function plugin (Vue) {
+  Vue.component('vue-tinymce', TinyMCE)
 }
-if (typeof module === 'object' && module.exports) {
-    module.exports = VueTinyMCE;
+
+// Install by default if using the script tag
+if (typeof window !== 'undefined' && window.Vue) {
+  window.Vue.use(plugin)
+}
+
+export default plugin
+const version = '__VERSION__'
+// Export all components too
+export {
+  version
 }
